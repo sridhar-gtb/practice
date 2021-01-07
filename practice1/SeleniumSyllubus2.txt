@@ -1,0 +1,365 @@
+//*[@id="identifierId"]
+
+
+//*[@id="email"]
+
+System.setProperty("webdriver.chrome.driver","C:\\Users\\sridhar\\Desktop\\New folder\\SQL\\chromedriver_win32 (1)\\chromedriver.exe");
+
+
+
+Selenium
+
+Introduction
+
+What is Selenium?
+Who developed Selenium?
+Selenium Components
+Selenium IDE
+
+Installing Selenium IDE
+Creating your First Selenium IDE script
+How to use Locators in Selenium IDE
+How to enhance a script using Selenium IDE
+Creating and Running Tests
+Creating and Running Test Suite
+WebDriver Introduction
+
+Introduction to WebDriver & Comparison with Selenium RC
+Installing Selenium WebDriver
+Architecture of selenium Webdriver
+Creating your First Script in Webdriver
+Launching AUT and Inspecting properties of Elements
+
+Launching AUT in FireFox
+Launching AUT in InternetExplorer
+Launching AUT in Chrome
+Launching AUT in Safari
+Inspecting properties of Elements on different Browsers
+Installing FireBug and FirePath
+Creating FireFox Profile
+Automating Operations on various Elements
+
+Browser
+TextBox
+ListBox
+Links
+Check Box
+Radio Button
+HTML Tables
+Calendars
+Automating Keyboard and Mouse Events
+
+Action Class
+KeyBoard Events
+Drag & Drop Actions
+Mouse Hover Action
+RightClick, Double Click & Tool Tip
+Handling multiple Windows
+
+getwindowHandle()
+getwindowHandles()
+Switching between windows
+Handling elements present in different windows
+Handling Alerts
+
+accept()
+dismiss()
+getText()
+sendKeys()
+Handling Frames
+
+What is iFrame?
+Locating Frames
+Switching between Frames
+Handling Frames
+Handling Ajax Components
+
+Handling Ajax Components
+Creating Customize XPath/CSS Selectors
+
+What is XPath
+When to Use XPath
+Absolute XPath/Relative XPath
+Specifying conditions with XPath
+CSS Selectors
+Customizing CSS Selector
+Synchronization
+
+ImplicitWait
+WebDriverWait
+FluentWait
+PageLoadTimeout
+What is TestNG?
+
+Advantages of TestNG over JUnit
+Why do we need TestNG in Selenium?
+Installing TestNG in Eclipse
+Creating a New TestNG Test File
+Test annotation
+Running the Test
+Checking reports created by TestNG
+Generating HTML Reports
+Annotations used in TestNG
+Validating Tests with Assertions
+Creating multiple Tests
+Prioritizing Tests
+Parameterizing Tests with dataProvider
+TestNG dataProvider with Excel
+Creating and Running Test Suites with TestNG.xml
+Parallel Test Execution with TestNG
+Cross Browser Testing using TestNG
+Automation Test Frameworks
+
+Modular Driven Framework
+Keyword Driven Framework
+Data Driven Framework
+Hybrid Framework
+Page Object Model (POM) & Page Factory in Selenium
+
+What is POM
+Why POM?
+Advantages of POM
+Creating POM Tests
+What is Page Factory?
+Creating Tests with Page Factory
+Database Testing using Selenium
+
+JDBC (Java Database Connectivity)
+Driver Manager
+Driver
+Connection
+Statement
+ResultSet
+SQLException
+Connecting to DataBases
+Sending SQL Queries to Database
+Processing Results
+Real-time examples of Database Testing with Selenium
+AutoIT
+
+Installing AutoIT
+Components of AutoIT
+Using FinderTool
+AutoIT commands
+Creating Scripts in AutoIT
+Creating executable files
+Running AutoIT Scripts from Selenium
+Selenium GRID
+
+What is Selenium Grid?
+When to Use Selenium Grid?
+What is a Hub and Node?
+How to Install and Use Grid 2.0?
+Designing Test Scripts That Can Run on the Grid
+Using the DesiredCapabilites Object
+Using the RemoteWebDriver Object
+Running a Sample Test Case on the Grid
+Sequential and Parallel Test Execution
+Running Tests on different Operating Systems
+Running Tests on different Browsers
+Maven & Jenkins
+
+MAVEN
+
+What is Maven and Why Maven?
+Installing/Configuring Maven
+Creating Maven Project
+Importing Maven Project into Eclipse
+What is POM.xml?
+Adding Dependencies to POM.xml
+JENKINS
+
+Installing/Configuring Jenkins
+Scheduling Test Execution in Jenkins
+Auto mail configuration in Jenkins
+What is continues integration?
+Continues integration with JENKINS
+GIT
+
+Downloading and Installing GIT
+Installing GIT and GITHUB plug-ins for JENKINS
+Configuring SSH host keys for GIT and JENKINS
+GIT Bash commands
+Uploading project to GIT
+
+
+********************************************************
+Course Objectives
+ To understand what is testing?
+ To understand Software development model.
+ To Understand Architectures of software development.
+ To learn the features of Software development models.
+ To learn major concepts of the testing methodologies.
+ To know different approaches to Testing.
+ To understand of the types of testing.
+ To plan and create test plan
+ To execute the test plan.
+ To create and manage test cases and defect profiles.
+ To build strategies to track testing processes in the bug tracking systems.
+ To do document of the test report in the testing enclosure document.
+
+Module 1: Software Testing Introduction
+In this module you learn about Importance of testing. Why Testers need industry, software
+program/application/product: meets the business and technical requirements that guided its design and
+development works as expected.
+ What is testing?
+ Importance of testing
+ Roles and Responsibilities
+ Principles of software testing
+ What is Quality?
+ How much testing is enough?
+ Differences between Manual and Automation Testing.
+
+Module 2: Software Development Life Cycle
+In this module you learn about development procedure .SDLC stands for Software development life cycle. It is a
+process that describes how to develop, design and maintain the software project ensuring that all the functional &
+user requirement, goals and objective are met.
+1. SDLC Phases
+ Requirements Phase.
+ Analysis Phase.
+ Design phase.
+ Coding Phase.
+ Testing phase.
+ Delivery and Maintenance Phase.
+
+2. SDLC Models
+ Waterfall Model.
+ V Model
+ Agile Model.
+ Prototype Model.
+ Spiral Model
+
+Module 3: Software Testing Methodologies
+In this module you learn about deferent types of software testing. Software Testing Methodology is defined as
+strategies and testing types used to certify that the application under test meets client expectations.
+ White Box Testing.
+ Black Box Testing.
+ Grey Box Testing.
+
+Module 4: Test Case Design Techniques
+In this module you learn design test cases in such a way that we get the maximum coverage using an optimal set of
+Test cases. Focus on highlighting the various Methods and Techniques in designing test cases for both Black Box
+Testingand White Box testing.
+Static Techniques:
+ Informal Reviews
+ Walkthroughs
+ Technical Reviews
+ Inspection
+
+Dynamic Techniques:
+Structural Techniques
+ Statement Coverage Testing
+ Branch Coverage Testing
+ Path Coverage Testing
+ Conditional Coverage Testing
+ Loop Coverage Testing
+
+Black Box Techniques
+ Boundary Value Analysis
+ Equivalence Class Partition
+ State Transition Technique
+ Cause Effective Graph
+ Decision Table
+ Use Case Testing
+
+Experienced Based Techniques:
+ Error guessing
+ Exploratory testing
+
+Module 5: Levels of Testing
+In this module you learn about levels of testing are frequently grouped by where they are added in the software
+development process, or by the level of specificity of the test.
+1. Functional Testing
+ Unit Testing
+ Integration Testing
+ System Testing
+ User Acceptance Testing.
+ Sanity/Smoke Testing.
+ Regression Test.
+ Retest.
+
+2. Non Functional Testing
+ Performance Testing.
+ Memory Test
+ Scalability Testing.
+ Compatibility Testing.
+ Security Testing.
+ Cookies Testing.
+ Session Testing.
+ Recovery Testing.
+ Installation Testing.
+ Adhoc Testing.
+ Risk Based Testing.
+ I18N Testing.
+ L1ON Testing.
+ Compliance Testing.
+
+Module 6: Software Testing Life Cycle
+In this module learn about in detail description of Test Life Cycle, importance of Test Plan roles and responsibilities
+of Test Manager, Test Lead, Test Engineer,
+
+1. Requirements Analysis/Design
+ Understand the requirements
+ Prepare Traceability Matrix
+
+2. Test Planning
+ Object.
+ Scope of Testing.
+ Schedule.
+ Approach.
+ Roles & Responsibilities.
+ Assumptions.
+ Risks & Mitigations.
+ Entry & Exit Criteria.
+ Test Automation.
+ Deliverables.
+
+3. Test Cases Design
+ Write Test cases
+ Review Test cases
+ Test Cases Template
+ Types of Test Cases
+ Difference between Test Scenarios and Test Cases.
+
+4. Test Environment setup
+ Understand the SRS
+ Hardware and software requirements
+ Test Data
+
+5. Test Execution
+ Execute test cases
+ Defect Tracking and Reporting
+ Types of Bugs.
+ Identifying the Bugs.
+ Bug/Defect Life Cycle.
+ Reporting the Bugs.
+ Severity and priority.
+
+6. Test Closure
+ Criteria for test closure
+ Test summary report
+
+7. Test Metrics
+ What is Test Measurements?
+ Why Test Metrics?
+ Metric Life Cycle.
+ Types of Manual Test Metrics.
+
+Module 7: QA & QC & Testing
+In this module you learn about QA & QC and How to log bugs in Project management tool, how to give severity,
+priority to bugs.
+ What is Quality Assurance?
+ What is Quality Control?
+ Differences of QA & QC & Testing
+
+
+
+
+//*[@id="input"]
+//input[@id="input"]
+
+thursay-8am, saturday-8am, from tuesday regular...
+
+//input[@class="phone-no "]
+
+//*[@id="header-signin-link"]/span
