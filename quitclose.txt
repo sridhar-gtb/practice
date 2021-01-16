@@ -1,1 +1,2 @@
 quit and close methods in selenium
+Quit is for closing all the windows in selenium and Close is for closing the main window.
